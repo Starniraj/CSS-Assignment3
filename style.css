@@ -1,0 +1,227 @@
+html{
+    background-color: gray;
+}
+.item1{
+    background-color: white;
+    border: 10px solid red;
+    border-radius: 15px;
+    color: brown;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    left: 500px;
+    
+    width: 30vw;
+    height: 7vw;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 3px red;
+    box-shadow: 10px 10px purple;
+}
+
+.flex-container{
+    
+    display: flex;
+    height: 42vw;
+    width: 99%;
+    border: 8px solid green;
+    
+
+}
+.flex-item1{
+    border: 7px solid red;
+    background-color: white;
+    color: darkblue;
+    height: 240px;
+    width: 260px;
+    border-radius: 20px;
+    box-shadow: 7px 7px purple;
+    text-align: center;
+    font-size: 29px;
+    font-weight: bold ;
+    text-shadow: 2px 2px 3px red;
+    padding: 15px;
+       
+}
+
+.flex-item2{
+    border: 7px solid red;
+    background-color: white;
+    height: 240px;
+    width: 260px;
+    border-radius: 20px;
+    box-shadow: 7px 7px purple;
+    text-align: center;
+    font-size: 29px;
+    font-weight: bold ;
+    text-shadow: 2px 2px 3px red;
+    padding: 15px;
+    position: relative;
+    left: 845px;
+
+        
+}
+img{
+    width: 250px;
+}
+
+.flex-item3{
+    border: 7px solid red;
+    background-color: white;
+    color: darkblue;
+    height: 240px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 7px 7px purple;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold ;
+    text-shadow: 2px 2px 3px red;
+    padding: 15px;
+    position: absolute;  
+    top: 600px; 
+    
+}
+
+.flex-item4{
+    border: 7px solid red;
+    background-color: white;
+    height: 240px;
+    width: 250px;
+    color: rgb(52, 2, 52);
+    border-radius: 20px;
+    box-shadow: 7px 7px purple;
+    text-align: center;
+    font-size: 29px;
+    font-weight: bold ;
+    text-shadow: 2px 2px 3px red;
+    padding: 15px;
+    position: relative;
+    left: 545px;
+    top: 380px;
+
+        
+}
+
+label{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold ;
+    text-shadow: 2px 2px 3px red;
+    color: darkblue;
+    text-shadow: 2px 1px;
+}
+
+.grid-container{
+    display: grid;
+    background-color: green;
+    border: 8px solid purple;
+    height: 43vw;
+    width: 65vw;
+    padding: 5px;
+    position: absolute;
+    left: 260px;
+    top: 1000px;
+    grid-template-columns: auto auto auto auto ;
+    padding: 10px;
+}
+
+.grid-item1{
+    color: black;
+    font-size: 30px;
+   
+    text-align: center;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 5;
+    grid-row-end: 2;
+    margin: 1px;
+    height: 0px;
+}
+.grid-item2{
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-column-end: 3;
+    grid-row-end: 4;
+    background-color: rgb(249, 249, 123);
+    margin: 5px;
+     margin-top: 50px;
+    height: 250px;
+    font-style: italic;
+}
+
+.grid-item3{
+     
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-column-end: 5;
+    grid-row-end: 4;
+    background-color: rgb(249, 249, 123);
+    margin: 5px;
+    margin-top: 50px;
+    height: 250px;
+    font-style: italic;
+}
+
+.grid-item4{
+     
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-column-end: 5;
+    grid-row-end: 6;
+    background-color: rgb(249, 249, 123);
+    margin: 4px;
+    /* margin-top: 2px; */
+    height: 250px;
+    font-style: italic;
+}
+
+.flex1{
+    background-color: greenyellow;
+    border: 8px solid red;
+    border-radius: 15px;
+    color: rgb(194, 6, 6);
+    font-style: italic;
+    display: flex;
+    font-size: 23px;
+    position: fixed;
+    top: 500px;
+    left: 400px;
+    width: 40vw;
+    height: 7vw;
+    font-weight: bold;
+    padding: 2px;
+    
+    box-shadow: 10px 10px purple;
+    justify-content: space-between;
+}
+
+.flex2{
+      font-size: 35px;
+      font-weight: bold;
+      padding: 10px;
+      text-align: center;
+}
+.flex3{
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
